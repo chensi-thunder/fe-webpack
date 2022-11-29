@@ -1,0 +1,11 @@
+{
+  "name": "fe-clean-log-loader",
+  "version": "1.0.0",
+  "description": "清除 console.log 的loader",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chensi-thunder",
+  "license": "MIT"
+}

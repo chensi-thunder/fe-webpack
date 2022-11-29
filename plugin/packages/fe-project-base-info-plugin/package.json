@@ -1,0 +1,27 @@
+{
+  "name": "fe-project-base-info-plugin",
+  "version": "1.1.8",
+  "description": "window.fe 挂载项目基础信息(版本,分支,最新提交ID,打包时间)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "chensi-thunder",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.9"
+  },
+  "dependencies": {
+    "safe-require": "1.0.4"
+  },
+  "peerDependencies": {
+    "html-webpack-plugin": "^3.0.0 || ^4.0.0",
+    "shelljs": "^0.6.0",
+    "webpack": "^3.0.0 || ^4.0.0"
+  },
+  "gitHead": "60db35a14bf4779166e824ea4ee4ab2cbe2c8c7c"
+}
