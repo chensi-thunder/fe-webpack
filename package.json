@@ -7,7 +7,14 @@
     "commit": "fe-git-commit"
   },
   "gitHooks": {
-    "commit-msg": "npm run verify-commit-message"
+    "commit-msg": "npm run verify-commit-message",
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "config": {
     "commitizen": {
@@ -25,6 +32,11 @@
   },
   "homepage": "https://github.com/chensi-thunder/fe-webpack#readme",
   "devDependencies": {
-    "@thunder_guoke/fe-git-commit-cli": "^1.1.0"
+    "@thunder_guoke/fe-git-commit-cli": "^1.1.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0"
   }
 }
