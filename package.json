@@ -2,24 +2,17 @@
   "name": "fe-webpack",
   "version": "1.0.0",
   "description": "webpack相关的插件",
-  "main": "",
   "scripts": {
     "verify-commit-message": "fe-git-verify-commit-message",
     "commit": "fe-git-commit"
   },
   "gitHooks": {
-    "commit-msg": "npm run verify-commit-message",
-    "pre-commit": "lint-staged"
+    "commit-msg": "npm run verify-commit-message"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "lint-staged": {
-    "*.{js}": [
-      "git add"
-    ]
   },
   "repository": {
     "type": "git",
@@ -32,6 +25,6 @@
   },
   "homepage": "https://github.com/chensi-thunder/fe-webpack#readme",
   "devDependencies": {
-    "@thunder_guoke/fe-git-commit-cli": "^1.0.3"
+    "@thunder_guoke/fe-git-commit-cli": "^1.1.0"
   }
 }
