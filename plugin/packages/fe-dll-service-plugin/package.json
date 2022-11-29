@@ -1,7 +1,7 @@
 {
   "name": "fe-dll-service-plugin",
-  "version": "1.2.2",
-  "description": "idss观安前端项目基于vue2/webpack4抽离提取dll通用服务",
+  "version": "1.0.0",
+  "description": "特有项目基于vue2/webpack4抽离提取dll通用服务",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,8 +14,8 @@
     "./package.json": "./package.json",
     "./*": "./src/*.js"
   },
-  "author": "idss-fe",
-  "license": "ISC",
+  "author": "chensi-thunder",
+  "license": "MIT",
   "dependencies": {
     "add-asset-html-webpack-plugin": "^3.2.0",
     "clean-webpack-plugin": "^4.0.0",
