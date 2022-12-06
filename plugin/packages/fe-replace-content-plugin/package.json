@@ -1,5 +1,5 @@
 {
-  "name": "fe-replace-content-plugin",
+  "name": "@chensi-thunder/fe-replace-content-plugin",
   "version": "1.0.0",
   "description": "替换打包文件中的内容",
   "main": "src/index.js",

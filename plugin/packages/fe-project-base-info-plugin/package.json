@@ -1,6 +1,6 @@
 {
-  "name": "@thunder_guoke/fe-project-base-info-plugin",
-  "version": "1.1.8",
+  "name": "@chensi-thunder/fe-project-base-info-plugin",
+  "version": "1.0.0",
   "description": "window.fe 挂载项目基础信息(版本,分支,最新提交ID,打包时间)",
   "main": "src/index.js",
   "scripts": {

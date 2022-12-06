@@ -23,12 +23,12 @@ $ npm install --save-dev fe-project-base-info-plugin
 在 webpack 中引入
 
 ```javascript
-const ProjectBaseInfoPlugin = require('ProjectBaseInfoPlugin')
+const FeProjectBaseInfoPlugin = require('FeProjectBaseInfoPlugin')
 const isProduction = process.env.NODE_ENV === 'production'
 
 ...
 configureWebpack: config => {
-  isProduction && config.plugins.push(new ProjectBaseInfoPlugin())
+  isProduction && config.plugins.push(new FeProjectBaseInfoPlugin())
 }
 ...
 ```    

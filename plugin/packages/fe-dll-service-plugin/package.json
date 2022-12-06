@@ -1,5 +1,5 @@
 {
-  "name": "@thunder_guoke/fe-dll-service-plugin",
+  "name": "@chensi-thunder/fe-dll-service-plugin",
   "version": "1.0.0",
   "description": "特有项目基于vue2/webpack4抽离提取dll通用服务",
   "main": "src/index.js",
