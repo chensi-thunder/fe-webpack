@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/chensi-thunder/fe-webpack#readme",
   "devDependencies": {
-    "@thunder_guoke/fe-git-commit-cli": "^1.1.1"
+    "@chensi-thunder/fe-git-commit-cli": "^1.1.4"
   }
 }
