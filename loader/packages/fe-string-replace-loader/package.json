@@ -15,7 +15,7 @@
     "webpack": "1 || 2 || 3 || 4"
   },
   "license": "ISC",
-  "private": true,
+  "private": false,
   "files": [
     "src"
   ]
