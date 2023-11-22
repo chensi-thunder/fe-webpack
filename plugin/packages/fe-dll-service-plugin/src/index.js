@@ -14,15 +14,30 @@ let baseConfig = {
   // 默认npm包在dll处理时，是否需要替换为其他路径，而非全量加载
   replaceNpmFileMap: {
     'fusion-components': [
-      'fusion-components/lib/directives/index.js',
-      'fusion-components/lib/filters/index.js',
-      'fusion-components/lib/components/index.js',
       'fusion-components/lib/install.js',
+      'fusion-components/lib/filters/index.js',
       'fusion-components/lib/plugins/index.js',
+      'fusion-components/lib/plugins/socket.js',
+      'fusion-components/lib/directives/index.js',
+      'fusion-components/lib/components/index.js',
       'fusion-components/lib/plugins/vue-extend.js',
-      'fusion-components/lib/plugins/router-extend.js',
-      'fusion-components/lib/plugins/socket.js'
+      'fusion-components/lib/plugins/router-extend.js'
     ]
+    /* 'fusion-commonality': [
+      'fusion-commonality/lib/install.js',
+      'fusion-commonality/lib/plugins/index.js',
+      'fusion-commonality/lib/plugins/socket.js',
+      'fusion-commonality/lib/directives/index.js',
+      'fusion-commonality/lib/components/index.js',
+      'fusion-commonality/lib/plugins/vue-extend.js',
+      'fusion-commonality/lib/plugins/router-extend.js'
+    ],
+    'fusion-filters': [
+      'fusion-filters/lib/index.js'
+    ],
+    'fusion-utils': [
+      'fusion-commonality/lib/install.js',
+    ], */
   },
   // 需要添加的文件
   addFiles: [],

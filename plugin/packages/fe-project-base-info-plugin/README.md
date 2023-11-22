@@ -5,9 +5,9 @@
 
 ```javascript
  {
-  name: "gdt-ui", 
+  name: "demo", 
   version: "1.0.1", 
-  barnch: "master", 
+  branch: "master", 
   commitId: "9ec20bc7de33ac76a78eb2cca80642fb61eacceb", 
   packTime: "2021-03-10 09:33:35"
 }
@@ -36,7 +36,7 @@ configureWebpack: config => {
 结果：index.html `<body>` 标签底部会插入下述格式代码：
 
 ```html
-<script type="text/javascript">window.fe = {"name":"gdt-ui","version":"1.0.1","barnch":"master","commitId":"9ec20bc7de33ac76a78eb2cca80642fb61eacceb","packTime":"2021-03-10 09:33:35"}</script>
+<script type="text/javascript">window.fe = {"name":"demo","version":"1.0.1","branch":"master","commitId":"9ec20bc7de33ac76a78eb2cca80642fb61eacceb","packTime":"2021-03-10 09:33:35"}</script>
 ```
 
 ## 注意事项
