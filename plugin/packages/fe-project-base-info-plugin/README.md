@@ -6,7 +6,7 @@
 ```javascript
  {
   name: "demo", 
-  version: "1.0.1", 
+  version: "1.0.5", 
   branch: "master", 
   commitId: "9ec20bc7de33ac76a78eb2cca80642fb61eacceb", 
   packTime: "2021-03-10 09:33:35"
@@ -16,7 +16,7 @@
 ## Install:
 
 ```bash
-$ npm install --save-dev fe-project-base-info-plugin
+$ npm install @chensi-thunder/fe-project-base-info-plugin@1.0.0 --save-dev
 ```
 
 ## 相关配置
@@ -36,7 +36,7 @@ configureWebpack: config => {
 结果：index.html `<body>` 标签底部会插入下述格式代码：
 
 ```html
-<script type="text/javascript">window.fe = {"name":"demo","version":"1.0.1","branch":"master","commitId":"9ec20bc7de33ac76a78eb2cca80642fb61eacceb","packTime":"2021-03-10 09:33:35"}</script>
+<script type="text/javascript">window.fe = {"name":"demo","version":"1.0.5","branch":"master","commitId":"9ec20bc7de33ac76a78eb2cca80642fb61eacceb","packTime":"2023-03-10 09:33:35"}</script>
 ```
 
 ## 注意事项

@@ -28,11 +28,10 @@ class FeProjectBaseInfoPlugin {
     // HtmlWebpackPlugin version 4.0.0
     if (htmlWebpackPlugin.getHooks) {
       compiler.hooks.compilation.tap(PLUGIN_NAME, (compilation) => {
-        compilation.hooks.htmlWebpackPluginBeforeHtmlProcessing.tapAsync(
-          // htmlWebpackPlugin.getHooks(compilation).beforeEmit.tapAsync(
-          PLUGIN_NAME,
-          this.onBeforeEmit.bind(this)
-        );
+        // compilation.hooks.htmlWebpackPluginBeforeHtmlProcessing.tapAsync(
+        htmlWebpackPlugin
+          .getHooks(compilation)
+          .beforeEmit.tapAsync(PLUGIN_NAME, this.onBeforeEmit.bind(this));
       });
     } else {
       // HtmlWebpackPlugin version 3.2.0
