@@ -23,7 +23,7 @@ $ npm install @chensi-thunder/fe-project-base-info-plugin@1.0.0 --save-dev
 在 webpack 中引入
 
 ```javascript
-const FeProjectBaseInfoPlugin = require('FeProjectBaseInfoPlugin')
+const FeProjectBaseInfoPlugin = require('@chensi-thunder/fe-project-base-info-plugin')
 const isProduction = process.env.NODE_ENV === 'production'
 
 ...
